@@ -1,0 +1,22 @@
+baseURL = "https://c20d.blog/"
+copyright = "Copyright © 2020-2023 Chris Halstead. All Rights Reserved."
+enableGitInfo = true
+rssLimit = 100
+timeZone = "America/Los_Angeles"
+title = "Infrastructure Never Sleeps"
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputs]
+  home = ["ATOM", "HTML", "JSON", "MANIFEST"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[outputFormats]
+  [outputFormats.ATOM]
+    mediaType = "application/atom+xml"
+    baseName  = "feed"

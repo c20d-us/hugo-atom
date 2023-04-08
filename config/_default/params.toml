@@ -1,0 +1,10 @@
+coverImage = "https://images.c20d.us/src/site-images/tweetcard-feature-image.png"
+dateFormatAtomFeed = "2006-01-02T15:04:05-07:00"
+dateFormatTag = "2006"
+description = "Tech, Business, Leadership, and miscellaneous ephemera"
+enableGitInfo = true
+feedUUID = "f37bbf04-9903-4de9-8f3e-eb5ccae246b0"
+icon = "https://images.c20d.us/src/site-images/feature-image-square.png"
+icon96 = "https://images.c20d.us/src/site-images/profile-96x96.jpg"
+logo = "https://images.c20d.us/src/site-images/round-logo.png"
+mainSections = ["posts"]
