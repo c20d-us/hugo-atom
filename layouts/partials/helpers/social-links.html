@@ -50,7 +50,7 @@
   {{- end -}}
 {{- end -}}
 {{- with .OutputFormats.Get "atom" -}}
-  <a class="nav-link social-link" target="_blank" href="{{ .Permalink }}" title="Atom" rel="noopener noreferrer">
+  <a class="nav-link social-link" target="_blank" href="{{ .Permalink }}" title="Feed" rel="noopener noreferrer">
     <i class="fas fa-fw{{ with $size }} {{ . }}{{ end }} fa-rss"></i>
   </a>
 {{- end -}}
