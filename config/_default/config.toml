@@ -1,16 +1,13 @@
-baseURL = "https://c20d.blog/"
-copyright = "Copyright © 2020-2023 Chris Halstead. All Rights Reserved."
-enableGitInfo = true
+copyright = "Copyright © 2020-{year} Chris Halstead. All Rights Reserved."
 rssLimit = 100
 timeZone = "America/Los_Angeles"
-title = "Infrastructure Never Sleeps"
 
 [mediaTypes]
   [mediaTypes."application/atom+xml"]
     suffixes = ["xml"]
 
 [outputs]
-  home = ["ATOM", "HTML", "JSON", "MANIFEST"]
+  home = ["ATOM", "HTML", "JSON"]
   page = ["HTML"]
   section = ["HTML"]
   taxonomy = ["HTML"]
